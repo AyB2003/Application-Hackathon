@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Hackaton_Project.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Hackaton_Project"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Hackaton_Project">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent Title="Statistiques" ContentTemplate="{DataTemplate local:NewPage1}">
+    </ShellContent>
+</Shell>

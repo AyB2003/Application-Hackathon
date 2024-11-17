@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackaton_Project.MainPage"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Image
+            Source="logoconnect.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Fill"
+            HeightRequest="50" />
+
+        <ScrollView Grid.Row="1" Orientation="Both">
+            <Image Source="mapbackground.png"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </ScrollView>
+        <BoxView Color="White"
+                 Grid.Row="2" 
+                 HorizontalOptions="FillAndExpand" 
+                 HeightRequest="5"
+            CornerRadius="20" />
+
+            <HorizontalStackLayout Grid.Row="2" HorizontalOptions="Center" Spacing="10" Padding="10">
+                <ImageButton x:Name="HomeButton" Source="maps.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" />
+                <ImageButton x:Name="Leaderboard" Source="statistiques.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnStatistiquesButtonClicked" />
+                <ImageButton x:Name="CenterIcon" Source="poubelle.png" Aspect="AspectFit" HeightRequest="70" WidthRequest="70" Clicked="OnConnectButtonClicked" />
+                <ImageButton x:Name="Suggestions" Source="astuces.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnSuggestionsButtonClicked"/>
+                <ImageButton x:Name="Setting" Source="parametres.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" />
+            </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

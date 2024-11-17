@@ -1,0 +1,83 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackaton_Project.NewPage2"
+             BackgroundColor="#F0F4F8">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1" Padding="25">
+            <VerticalStackLayout Spacing="25">
+                <Label 
+                    Text="Voici quelques suggestions, User123"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="#2C3E50"
+                    FontSize="28" 
+                    FontAttributes="Bold"
+                    FontFamily="Roboto-Bold"
+                    Margin="0,0,0,10" />
+                    <Label
+                    Text="Suggestions"
+                    TextColor="#3498DB"
+                        VerticalOptions="Start"
+                    HorizontalOptions="Start" 
+                    FontSize="22" 
+                    FontAttributes="Bold" 
+                    Margin="0,10,0,5" />
+
+                        <Frame BorderColor="#BDC3C7"
+                       BackgroundColor="White" 
+                       CornerRadius="16"
+                            Padding="20" 
+                       HasShadow="True">
+                            <CollectionView x:Name="SuggestionsCollectionView"
+                                    VerticalOptions="FillAndExpand">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Text="{Binding}" Padding="12" FontSize="18" TextColor="#34495E" />
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </Frame>
+                        <Label 
+                    Text="Astuces"
+                    TextColor="#3498DB"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start" 
+                    FontSize="22" 
+                    FontAttributes="Bold" 
+                    Margin="0,20,0,5" />
+
+                        <Frame BorderColor="#BDC3C7" 
+                       BackgroundColor="White" 
+                       CornerRadius="16" 
+                       Padding="20" 
+                       HasShadow="True">
+                            <CollectionView x:Name="AstucesView"
+                                    VerticalOptions="FillAndExpand">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Text="{Binding}" Padding="12" FontSize="18" TextColor="#34495E" />
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+        <BoxView Color="White"
+                 Grid.Row="2" 
+                 HorizontalOptions="FillAndExpand" 
+                 HeightRequest="90"
+                 CornerRadius="20" />
+        <HorizontalStackLayout Grid.Row="2" HorizontalOptions="Center" VerticalOptions="End" Spacing="20" Padding="15">
+            <ImageButton x:Name="HomeButton" Source="maps.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnHomeButtonClicked"/>
+            <ImageButton x:Name="Leaderboard" Source="statistiques.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnstatButtonClicked"/>
+            <ImageButton x:Name="CenterIcon" Source="poubelle.png" Aspect="AspectFit" HeightRequest="70" WidthRequest="70" />
+            <ImageButton x:Name="Suggestions" Source="astuces.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50"/>
+            <ImageButton x:Name="Setting" Source="parametres.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" />
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

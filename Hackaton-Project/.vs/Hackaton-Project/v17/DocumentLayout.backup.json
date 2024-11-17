@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\newpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\codeentrypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\codeentrypopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|c:\\users\\nasri ayoub\\source\\repos\\hackaton-project\\hackaton-project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}|Hackaton-Project\\Hackaton-Project.csproj|solutionrelative:hackaton-project\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\App.xaml.cs",
+              "RelativeToolTip": "Hackaton-Project\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:49:01.917Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Hackaton-Project\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MainPage.xaml",
+              "RelativeToolTip": "Hackaton-Project\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-12T09:37:00.032Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage1.xaml.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\NewPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage1.xaml.cs",
+              "RelativeToolTip": "Hackaton-Project\\NewPage1.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwDUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T23:12:33.17Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage2.xaml",
+              "RelativeDocumentMoniker": "Hackaton-Project\\NewPage2.xaml",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage2.xaml",
+              "RelativeToolTip": "Hackaton-Project\\NewPage2.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T07:43:06.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPage2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage2.xaml.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\NewPage2.xaml.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage2.xaml.cs",
+              "RelativeToolTip": "Hackaton-Project\\NewPage2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T07:54:04.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CodeEntryPopup.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\CodeEntryPopup.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\CodeEntryPopup.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\CodeEntryPopup.cs",
+              "RelativeToolTip": "Hackaton-Project\\CodeEntryPopup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:13:05.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "Hackaton-Project\\NewPage1.xaml",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\NewPage1.xaml",
+              "RelativeToolTip": "Hackaton-Project\\NewPage1.xaml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T08:34:01.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MauiProgram.cs",
+              "RelativeToolTip": "Hackaton-Project\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:30:56.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\MainPage.xaml.cs",
+              "RelativeToolTip": "Hackaton-Project\\MainPage.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:36:50.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Hackaton-Project\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\AppShell.xaml.cs",
+              "RelativeToolTip": "Hackaton-Project\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:48:58.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Hackaton-Project\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\AppShell.xaml",
+              "RelativeToolTip": "Hackaton-Project\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-12T10:49:07.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\App.xaml",
+              "RelativeDocumentMoniker": "Hackaton-Project\\App.xaml",
+              "ToolTip": "C:\\Users\\nasri ayoub\\source\\repos\\Hackaton-Project\\Hackaton-Project\\App.xaml",
+              "RelativeToolTip": "Hackaton-Project\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-12T10:49:04.86Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

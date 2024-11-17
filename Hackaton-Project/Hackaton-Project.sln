@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackaton-Project", "Hackaton-Project\Hackaton-Project.csproj", "{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3306FF6-AD53-43CE-8B6E-5D0225D969BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52500CC8-EDD9-4A0F-AAA2-36EAD6C2C95B}
+	EndGlobalSection
+EndGlobal

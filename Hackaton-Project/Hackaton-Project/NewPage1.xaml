@@ -1,0 +1,136 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackaton_Project.NewPage1"
+             BackgroundColor="#f5f5f5">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0" VerticalOptions="FillAndExpand">
+            <VerticalStackLayout Padding="20" Spacing="20">
+
+                <Frame BackgroundColor="#ECF0F1" 
+                       BorderColor="#BDC3C7" 
+                       CornerRadius="20" 
+                       Padding="15"
+                       HasShadow="True">
+                    <StackLayout Padding="10" BackgroundColor="#ECF0F1">
+                        <Label Text="Progrés du recyclage :" 
+                               Style="{StaticResource SubHeadline}" 
+                               TextColor="#2C3E50"
+                               FontSize="24" 
+                               FontAttributes="Bold" 
+                               FontFamily="SFProText" />
+                        <Label Text="Poubelle Recyclée" 
+                               TextColor="#34495E" 
+                               FontSize="20" 
+                               HorizontalOptions="Start" />
+                        <ProgressBar x:Name="myRecycledTrash" 
+                                      Progress="0.63" 
+                                      HeightRequest="20" 
+                                      BackgroundColor="#D5DBDB"
+                                      ProgressColor="#76C7C0" />
+
+                        <Label Text="Poubelle Non Recyclée" 
+                               TextColor="#34495E" 
+                               FontSize="20"
+                               HorizontalOptions="Start" />
+                        <ProgressBar x:Name="myNonRecycledTrash" 
+                                      Progress="0.12" 
+                                      HeightRequest="20" 
+                                      BackgroundColor="#D5DBDB" 
+                                      ProgressColor="#FF6F61" />
+
+                        <Label Text="Score Actuel : 5.3 points" 
+                               TextColor="#E74C3C" 
+                               FontAttributes="Bold" 
+                               HorizontalTextAlignment="Start" />
+                    </StackLayout>
+                </Frame>
+
+                <Label Text="Classement du Quartier : " 
+                       Style="{StaticResource SubHeadline}" 
+                       TextColor="#2C3E50" 
+                       FontSize="24" 
+                       FontAttributes="Bold" />
+
+                <Frame BackgroundColor="#ECF0F1"
+                       BorderColor="#BDC3C7" 
+                       HasShadow="True"
+                       Padding="10">
+                    <CollectionView x:Name="NeighView"
+                                    VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="White" 
+                                       BorderColor="#BDC3C7" 
+                                       CornerRadius="10" 
+                                       Padding="10" 
+                                       HasShadow="True">
+                                    <HorizontalStackLayout Padding="10" Spacing="5" VerticalOptions="Center">
+                                        <Image Source="playericon.png"
+                                               WidthRequest="60"
+                                               HeightRequest="60"
+                                               Aspect="AspectFit" />
+                                        <Label Text="{Binding}" 
+                                               FontSize="18" 
+                                               TextColor="#34495E" 
+                                               VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Frame>
+
+                <Label Text="Classement des Utilisateurs : " 
+                       Style="{StaticResource SubHeadline}" 
+                       TextColor="#2C3E50" 
+                       FontSize="24" 
+                       FontAttributes="Bold" />
+
+                <Frame BackgroundColor="#ECF0F1"
+                       BorderColor="#BDC3C7" 
+                       HasShadow="True"
+                       Padding="10">
+                    <CollectionView x:Name="PlayerView"
+                                    VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame BackgroundColor="White" 
+                                       BorderColor="#BDC3C7" 
+                                       CornerRadius="10" 
+                                       Padding="10" 
+                                       HasShadow="True">
+                                    <HorizontalStackLayout Padding="10" Spacing="5" VerticalOptions="Center">
+                                        <Image Source="playericon.png"
+                                               WidthRequest="60"
+                                               HeightRequest="60"
+                                               Aspect="AspectFit" />
+                                        <Label Text="{Binding}" 
+                                               FontSize="18" 
+                                               TextColor="#34495E" 
+                                               VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+        <BoxView Color="White"
+                 Grid.Row="2" 
+                 HorizontalOptions="FillAndExpand" 
+                 HeightRequest="90"
+            CornerRadius="20" />
+        <HorizontalStackLayout Grid.Row="2" HorizontalOptions="Center" Spacing="10" Padding="10">
+            <ImageButton x:Name="HomeButton" Source="maps.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnHomeButtonClicked"/>
+            <ImageButton x:Name="Leaderboard" Source="statistiques.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50"/>
+            <ImageButton x:Name="CenterIcon" Source="poubelle.png" Aspect="AspectFit" HeightRequest="70" WidthRequest="70"/>
+            <ImageButton x:Name="Suggestions" Source="astuces.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50" Clicked="OnSuggestionsButtonClicked"/>
+            <ImageButton x:Name="Setting" Source="parametres.png" Aspect="AspectFit" HeightRequest="50" WidthRequest="50"/>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>
