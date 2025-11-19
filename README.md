@@ -1,4 +1,4 @@
-# TriConnect 📱
+# TriConnect
 
 **TriConnect** is a cross-platform mobile application built using **C#** and the **MAUI (Multiplatform App UI)** framework. This project focuses on the front-end development, delivering a responsive and intuitive user interface optimized for both iOS and Android devices. The app provides a modern, user-friendly design to enhance the user experience.
 
